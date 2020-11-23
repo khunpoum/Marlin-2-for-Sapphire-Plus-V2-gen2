@@ -201,8 +201,8 @@ void lv_draw_manualLevel(void) {
 
   #if 1
     lv_obj_set_event_cb_mks(buttonPoint2, event_handler, ID_M_POINT2, NULL, 0);
-    lv_imgbtn_set_src(buttonPoint2, LV_BTN_STATE_REL, "F:/bmp_leveling2.bin");
-    lv_imgbtn_set_src(buttonPoint2, LV_BTN_STATE_PR, "F:/bmp_leveling2.bin");
+    lv_imgbtn_set_src(buttonPoint2, LV_BTN_STATE_REL, "F:/bmp_leveling4.bin");
+    lv_imgbtn_set_src(buttonPoint2, LV_BTN_STATE_PR, "F:/bmp_leveling4.bin");
     lv_imgbtn_set_style(buttonPoint2, LV_BTN_STATE_PR, &tft_style_label_pre);
     lv_imgbtn_set_style(buttonPoint2, LV_BTN_STATE_REL, &tft_style_label_rel);
 
@@ -213,8 +213,8 @@ void lv_draw_manualLevel(void) {
     lv_imgbtn_set_style(buttonPoint3, LV_BTN_STATE_REL, &tft_style_label_rel);
 
     lv_obj_set_event_cb_mks(buttonPoint4, event_handler, ID_M_POINT4, NULL, 0);
-    lv_imgbtn_set_src(buttonPoint4, LV_BTN_STATE_REL, "F:/bmp_leveling4.bin");
-    lv_imgbtn_set_src(buttonPoint4, LV_BTN_STATE_PR, "F:/bmp_leveling4.bin");
+    lv_imgbtn_set_src(buttonPoint4, LV_BTN_STATE_REL, "F:/bmp_leveling2.bin");
+    lv_imgbtn_set_src(buttonPoint4, LV_BTN_STATE_PR, "F:/bmp_leveling2.bin");
     lv_imgbtn_set_style(buttonPoint4, LV_BTN_STATE_PR, &tft_style_label_pre);
     lv_imgbtn_set_style(buttonPoint4, LV_BTN_STATE_REL, &tft_style_label_rel);
 
