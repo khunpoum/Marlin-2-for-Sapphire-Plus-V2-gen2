@@ -3,11 +3,12 @@
 this fork of firmware Marlin v.2.0.7.2 espescially prepared for 3D Printer TwoTrees Sapphire Plus v2 (gen2) with two independent Z-axis (for each Z-axis have a dedicated driver).
 Beware! It is not compatable with Sapphire Plus gen1 that used belt betwen two Z-axis motors and one driver for two z-axis motors.
 
-- enabled Linear Advance (LIN_ADVANCE) and disabled S_CURVE_ACCELERATION
-- MKS UI (like a default UI on Sapphire Plus)
+- enabled S_CURVE_ACCELERATION
+- Marlin color UI
 - enabled bed PID-control (PIDTEMPBED)
 - adjusted PID parameters for hotend and bed
-- correct position of leveling corners in LCD menu
+
+
 
 # Marlin 3D Printer Firmware
 
